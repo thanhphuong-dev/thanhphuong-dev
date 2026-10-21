@@ -2,7 +2,7 @@
 
   <!-- HERO BANNER -->
   <a href="https://github.com/thanhphuong-dev">
-    <img src="./assets/banner.jpg" width="100%" alt="Thanh Phuong - Fullstack & BIM/CAD Software Engineer" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+    <img src="https://raw.githubusercontent.com/thanhphuong-dev/thanhphuong-dev/main/assets/banner.jpg" width="100%" alt="Thanh Phuong - Fullstack & BIM/CAD Software Engineer" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
   </a>
 
   <br/><br/>
