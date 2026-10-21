@@ -1,87 +1,129 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=220&section=header&text=Hi%20there,%20I'm%20Thanh%20Phuong%20👋&fontSize=38&fontAlignY=38&desc=Fullstack%20%7C%20BIM%20%26%20CAD%20Developer%20%7C%20Desktop%20%26%20Cloud%20Solutions&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
-
-  <!-- Animated Typing Subtitle -->
+  <!-- HERO BANNER -->
   <a href="https://github.com/thanhphuong-dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Fullstack+Developer+%26+Desktop+Engineer;Autodesk+Revit+%26+AutoCAD+API+Specialist;BIM+Automation+%26+Custom+Plugins;Building+High-Performance+.NET+%26+Web+Applications" alt="Typing SVG" />
+    <img src="./assets/banner.jpg" width="100%" alt="Thanh Phuong - Fullstack & BIM/CAD Software Engineer" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
   </a>
 
+  <br/><br/>
+
+  <!-- TYPING EFFECT -->
+  <a href="https://github.com/thanhphuong-dev">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Fullstack+Developer+%26+AEC+Software+Engineer;Autodesk+Revit+%26+AutoCAD+API+Specialist;Custom+BIM+Automation+%26+High-Performance+Desktop+Apps;Building+Modern+Web+Dashboards+%26+Cloud+Solutions" alt="Typing Subtitle" />
+  </a>
+
+  <br/>
+
+  <!-- STATUS BADGES -->
   <p align="center">
-    <a href="https://github.com/thanhphuong-dev">
-      <img src="https://komarev.com/ghpvc/?username=thanhphuong-dev&label=PROFILE+VIEWS&color=0284c7&style=flat-square" alt="Profile Views" />
-    </a>
-    <img src="https://img.shields.io/badge/Status-Available%20for%20Projects-success?style=flat-square&color=22c55e" alt="Status" />
-    <img src="https://img.shields.io/badge/Location-Vietnam-blue?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/Focus-BIM%20%7C%20CAD%20%7C%20Fullstack-0284c7?style=for-the-badge&logoColor=white" alt="Focus" />
+    <img src="https://img.shields.io/badge/Stack-.NET%20%2F%20C%23%20%E2%80%A2%20React%20%E2%80%A2%20Revit%20API-512BD4?style=for-the-badge&logoColor=white" alt="Stack" />
+    <img src="https://img.shields.io/badge/Status-Open%20to%20Collaborations-22c55e?style=for-the-badge&logoColor=white" alt="Status" />
+    <img src="https://img.shields.io/badge/Location-Vietnam-3b82f6?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
   </p>
 
 </div>
 
 ---
 
-### 👨‍💻 About Me
+### 👨‍💻 Giới Thiệu (About Me)
+
+Tôi là **Thanh Phương**, một Kỹ sư phần mềm chuyên về **BIM / CAD Customization (AEC Tech)** kết hợp với **Phát triển Desktop (.NET / WPF)** và **Fullstack Web**.
+
+Sứ mệnh của tôi là giải quyết bài toán phức tạp của ngành kiến trúc & xây dựng bằng công nghệ phần mềm: chuyển đổi các thao tác vẽ tay, tính toán thủ công và quản lý rời rạc thành các hệ thống **tự động hóa 1-click**, chính xác và tối ưu chi phí.
 
 ```csharp
-public class Developer : Human
+public class EngineerProfile
 {
-    public string Name => "Thanh Phuong";
-    public string Role => "Fullstack & BIM / CAD Developer";
-    public string[] FocusAreas => new[] 
-    { 
-        "Autodesk Revit & AutoCAD API", 
-        "Desktop Applications (.NET / WPF)", 
-        "Fullstack Web Development",
-        "AEC Process Automation"
-    };
-    public string CurrentGoal => "Bridging the gap between Architecture, Engineering, and Software Innovation 🚀";
+    public string Developer  => "Thanh Phuong";
+    public string CoreSkills => "Autodesk Revit API | C# .NET | WPF | Fullstack Web";
+    public string Mission    => "Tối ưu hóa & tự động hóa quy trình AEC từ Desktop tới Cloud 🚀";
+    public bool   OpenToWork => true;
 }
 ```
 
-- 🏗️ **BIM / CAD Technology Developer**: Chuyên nghiên cứu và phát triển các giải pháp tự động hóa thiết kế cho ngành AEC (Architecture, Engineering, Construction) thông qua **Autodesk Revit API**, **AutoCAD API**, **Navisworks** và **Dynamo**.
-- 🖥️ **Desktop Solutions**: Xây dựng các ứng dụng desktop hiệu năng cao với **C#**, **.NET Core / .NET 8**, **WPF (MVVM)** và **WinForms**.
-- 🌐 **Fullstack Web Developer**: Phát triển các ứng dụng web hiện đại (Frontend & Backend APIs) nhằm quản lý dữ liệu kỹ thuật, số hóa quy trình và tích hợp hệ thống.
-- ⚡ **Tôn chỉ làm việc**: Tối ưu hóa quy trình thủ công phức tạp thành các tính năng "1-click automation" chính xác, nhanh chóng và tin cậy.
+---
+
+### 🏛️ Lĩnh Vực Chuyên Sâu (Core Pillars)
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏗️ 1. BIM & CAD Automation (AEC Tech)</h4>
+      <ul>
+        <li><b>Revit API & Dynamo:</b> Phát triển Add-in tự động sinh hình học, bóc tách khối lượng (QTO), kiểm tra va chạm (Clash Detection), gắn và đồng bộ tham số (Shared Parameters).</li>
+        <li><b>AutoCAD API / ObjectARX:</b> Xây dựng bộ công cụ chuẩn hóa bản vẽ kỹ thuật, tự động đánh số hiệu và trích xuất dữ liệu sang Excel/DB.</li>
+        <li><b>OpenBIM & APS (Forge):</b> Nghiên cứu chuẩn IFC và nền tảng đám mây Autodesk Platform Services.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🖥️ 2. Desktop Engineering (.NET / C#)</h4>
+      <ul>
+        <li><b>Kiến trúc hiện đại:</b> Xây dựng ứng dụng Windows mượt mà, chuyên nghiệp với <b>WPF (MVVM)</b>, XAML và WinForms.</li>
+        <li><b>Xử lý đa luồng & Dữ liệu lớn:</b> Tối ưu hóa thuật toán tính toán hình học, đọc ghi file CAD/Revit nặng không giật lag.</li>
+        <li><b>UI/UX Desktop:</b> Tích hợp Fluent Design / Material Design hiện đại, trực quan cho kỹ sư.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌐 3. Fullstack Web Platforms</h4>
+      <ul>
+        <li><b>Frontend:</b> Xây dựng dashboard tương tác, giao diện quản lý dự án trực quan với <b>React, TypeScript, Tailwind CSS</b>.</li>
+        <li><b>Backend & APIs:</b> Thiết kế RESTful APIs mạnh mẽ với <b>ASP.NET Core</b> hoặc <b>Node.js</b>, kết nối dữ liệu máy chủ an toàn.</li>
+        <li><b>AEC Cloud Apps:</b> Định hướng đưa dữ liệu BIM lên web phục vụ theo dõi tiến độ và số hóa hồ sơ công trình.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🗄️ 4. Data & DevOps Workflows</h4>
+      <ul>
+        <li><b>Cơ sở dữ liệu:</b> Thiết kế CSDL quan hệ chặt chẽ với <b>SQL Server, PostgreSQL, SQLite</b> phục vụ lưu trữ thông tin vật tư, dự án.</li>
+        <li><b>Quản lý mã nguồn & CI/CD:</b> Sử dụng <b>Git, GitHub Actions</b> để tự động build, test và release Add-in cho các phiên bản Revit/CAD.</li>
+        <li><b>Môi trường phát triển:</b> Visual Studio, VS Code, Postman, Docker.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### 🛠️ Kỹ Năng & Công Nghệ (Tech Stack)
 
-#### 🏗️ BIM / CAD & AEC Engineering
-<p>
+#### 🏗️ BIM, CAD & AEC Technologies
+<p align="left">
   <img src="https://img.shields.io/badge/Autodesk%20Revit%20API-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" alt="Revit API" />
   <img src="https://img.shields.io/badge/AutoCAD%20API-E51937?style=for-the-badge&logo=autodesk&logoColor=white" alt="AutoCAD API" />
   <img src="https://img.shields.io/badge/Navisworks-005B94?style=for-the-badge&logo=autodesk&logoColor=white" alt="Navisworks" />
-  <img src="https://img.shields.io/badge/Dynamo%20BIM-333333?style=for-the-badge&logo=autodesk&logoColor=white" alt="Dynamo" />
-  <img src="https://img.shields.io/badge/IFC%20%2F%20OpenBIM-4361EE?style=for-the-badge&logoColor=white" alt="OpenBIM" />
-  <img src="https://img.shields.io/badge/Autodesk%20Platform%20Services-0696D7?style=for-the-badge&logo=autodesk&logoColor=white" alt="APS / Forge" />
+  <img src="https://img.shields.io/badge/Dynamo%20BIM-282C34?style=for-the-badge&logo=autodesk&logoColor=white" alt="Dynamo" />
+  <img src="https://img.shields.io/badge/OpenBIM%20%2F%20IFC-4361EE?style=for-the-badge&logoColor=white" alt="OpenBIM" />
+  <img src="https://img.shields.io/badge/Autodesk%20Platform%20Services-0284c7?style=for-the-badge&logo=autodesk&logoColor=white" alt="APS" />
 </p>
 
-#### 🖥️ Desktop Application & Core Languages
-<p>
+#### 🖥️ Desktop & Programming Languages
+<p align="left">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET%20Core%20%2F%20.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/WPF%20%2F%20XAML-512BD4?style=for-the-badge&logo=windows&logoColor=white" alt="WPF" />
+  <img src="https://img.shields.io/badge/.NET%208%20%2F%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+  <img src="https://img.shields.io/badge/WPF%20%28XAML%29-512BD4?style=for-the-badge&logo=windows&logoColor=white" alt="WPF" />
   <img src="https://img.shields.io/badge/WinForms-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="WinForms" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
 #### 🌐 Fullstack Web Development
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<p align="left">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-#### 🗄️ Database & Development Tools
-<p>
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+#### 🗄️ Database, Tools & Cloud
+<p align="left">
+  <img src="https://img.shields.io/badge/SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -92,32 +134,16 @@ public class Developer : Human
 
 ---
 
-### 🚀 Key Focus & Capabilities
-
-| Lĩnh vực | Mô tả năng lực & Giải pháp |
-| :--- | :--- |
-| 🧩 **Revit Add-ins & Plugins** | Viết add-in tự động tạo mô hình, xuất bóc tách khối lượng (QTO), kiểm tra va chạm (clash detection), đồng bộ dữ liệu thông số (parameters) và tự động sinh bản vẽ. |
-| 📐 **AutoCAD Custom Tools** | Xây dựng công cụ Lisp, ObjectARX, .NET API cho AutoCAD nhằm chuẩn hóa bản vẽ kỹ thuật và tự động hóa thao tác lặp lại. |
-| 🖥️ **Phần mềm Desktop (.NET/WPF)** | Phát triển phần mềm quản lý nội bộ, công cụ xử lý dữ liệu kỹ thuật với giao diện hiện đại (Material Design / Fluent UI), kiến trúc MVVM dễ bảo trì. |
-| 🌐 **AEC Web Platforms** | Xây dựng ứng dụng web quản lý tiến độ, số hóa hồ sơ thiết kế, tương tác và hiển thị mô hình BIM 3D trên nền web. |
-
----
-
-### 📊 GitHub Statistics
+### 📈 Hoạt Động & Thống Kê (GitHub Insights)
 
 <div align="center">
-  <table border="0">
+  <table border="0" style="border: none;">
     <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=thanhphuong-dev&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8&icon_color=38BDF8" alt="Thanh Phuong's GitHub stats" height="175" />
+      <td align="center" style="border: none;">
+        <img src="https://github-readme-stats.vercel.app/api?username=thanhphuong-dev&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=94A3B8" alt="GitHub Stats" height="165" />
       </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhphuong-dev&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" height="175" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=thanhphuong-dev&theme=radical&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" height="170" />
+      <td align="center" style="border: none;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thanhphuong-dev&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" height="165" />
       </td>
     </tr>
   </table>
@@ -125,27 +151,23 @@ public class Developer : Human
 
 ---
 
-### 📫 Connect with Me
+### 🤝 Kết Nối Với Tôi (Get in Touch)
 
 <div align="center">
+  <p>Bạn đang tìm kiếm giải pháp <b>tự động hóa thiết kế BIM/CAD</b>, phần mềm <b>Desktop .NET</b> hay ứng dụng <b>Web hiện đại</b>?</p>
+  <p>Hãy liên hệ với tôi qua các kênh dưới đây:</p>
 
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="mailto:thanhphuong.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-thanhphuong.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/your-username" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://github.com/thanhphuong-dev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-thanhphuong--dev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://facebook.com/your-username" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="https://github.com/thanhphuong-dev">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 
-</div>
+  <br/><br/>
 
-<br/>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <sub>Designed with ❤️ by <b>thanhphuong-dev</b> • Elevating AEC with Code</sub>
 </div>
